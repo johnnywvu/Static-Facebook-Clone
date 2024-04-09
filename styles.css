@@ -1,0 +1,72 @@
+body {
+    background-image: url('path/to/valentine-background.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff; 
+    font-size: 20px; /
+}
+
+.modal {
+    font-family: 'valentin';
+    background-color: rgba(255, 126, 126, 0.7);
+    padding: 40px; 
+    border-radius: 20px; 
+    width: 400px;
+    text-align: center;
+    position: relative;
+    color: #000;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    font-family: 'things';
+    font-size: 58px; 
+     padding: 5px;
+    border: 2px solid #ff6b6b;
+    border-radius: 8px;
+}
+
+button {
+    font-family: 'valentin';
+    font-size: 22px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff5252;
+}
+
+
+h2 {
+    color: #ff6b6b;
+    font-size: 28px;
+    margin-bottom: 30px; 
+}
+
+
+@font-face {
+    font-family: 'valentin';
+    src: url(VALENTIN.TTF);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Things';
+    src: url(Things.otf);
+}
